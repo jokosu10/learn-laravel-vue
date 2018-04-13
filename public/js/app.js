@@ -13892,6 +13892,7 @@ window.Vue = __webpack_require__(36);
  */
 
 Vue.component('example-component', __webpack_require__(39));
+Vue.component('kalkulator', __webpack_require__(47));
 
 var app = new Vue({
   el: '#app'
@@ -47369,6 +47370,165 @@ if (false) {
 /***/ (function(module, exports) {
 
 throw new Error("Module build failed: ModuleBuildError: Module build failed: Error: Missing binding D:\\xampp\\htdocs\\kalc-vue\\node_modules\\node-sass\\vendor\\win32-x64-57\\binding.node\nNode Sass could not find a binding for your current environment: Windows 64-bit with Node.js 8.x\n\nFound bindings for the following environments:\n  - Windows 64-bit with Node.js 9.x\n\nThis usually happens because your environment has changed since running `npm install`.\nRun `npm rebuild node-sass --force` to build the binding for your current environment.\n    at module.exports (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\node-sass\\lib\\binding.js:15:13)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\node-sass\\lib\\index.js:14:35)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Module.require (module.js:596:17)\n    at require (internal/module.js:11:18)\n    at Object.<anonymous> (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\sass-loader\\lib\\loader.js:3:14)\n    at Module._compile (module.js:652:30)\n    at Object.Module._extensions..js (module.js:663:10)\n    at Module.load (module.js:565:32)\n    at tryModuleLoad (module.js:505:12)\n    at Function.Module._load (module.js:497:3)\n    at Module.require (module.js:596:17)\n    at require (internal/module.js:11:18)\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:13:17)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:173:18\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:36:3)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:173:18\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:36:3)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:173:18\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:36:3)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at runLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:362:2)\n    at NormalModule.doBuild (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModule.js:182:3)\n    at NormalModule.build (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModule.js:275:15)\n    at Compilation.buildModule (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\Compilation.js:151:10)\n    at moduleFactory.create (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\Compilation.js:454:10)\n    at runLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModule.js:195:19)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:364:11\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:170:18\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:27:11)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:173:18\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:36:3)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:173:18\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:36:3)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:165:10)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:173:18\n    at loadLoader (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\loadLoader.js:36:3)\n    at iteratePitchingLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:169:2)\n    at runLoaders (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\loader-runner\\lib\\LoaderRunner.js:362:2)\n    at NormalModule.doBuild (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModule.js:182:3)\n    at NormalModule.build (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModule.js:275:15)\n    at Compilation.buildModule (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\Compilation.js:151:10)\n    at moduleFactory.create (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\Compilation.js:454:10)\n    at factory (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModuleFactory.js:243:5)\n    at applyPluginsAsyncWaterfall (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModuleFactory.js:94:13)\n    at D:\\xampp\\htdocs\\kalc-vue\\node_modules\\tapable\\lib\\Tapable.js:268:11\n    at NormalModuleFactory.params.normalModuleFactory.plugin (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\CompatibilityPlugin.js:52:5)\n    at NormalModuleFactory.applyPluginsAsyncWaterfall (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\tapable\\lib\\Tapable.js:272:13)\n    at resolver (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModuleFactory.js:69:10)\n    at process.nextTick (D:\\xampp\\htdocs\\kalc-vue\\node_modules\\webpack\\lib\\NormalModuleFactory.js:196:7)\n    at _combinedTickCallback (internal/process/next_tick.js:131:7)\n    at process._tickCallback (internal/process/next_tick.js:180:9)");
+
+/***/ }),
+/* 44 */,
+/* 45 */,
+/* 46 */,
+/* 47 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var disposed = false
+var normalizeComponent = __webpack_require__(40)
+/* script */
+var __vue_script__ = __webpack_require__(48)
+/* template */
+var __vue_template__ = __webpack_require__(49)
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+var Component = normalizeComponent(
+  __vue_script__,
+  __vue_template__,
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+Component.options.__file = "resources\\assets\\js\\components\\kalkulator\\KalkulatorForm.vue"
+
+/* hot reload */
+if (false) {(function () {
+  var hotAPI = require("vue-hot-reload-api")
+  hotAPI.install(require("vue"), false)
+  if (!hotAPI.compatible) return
+  module.hot.accept()
+  if (!module.hot.data) {
+    hotAPI.createRecord("data-v-4ea1804e", Component.options)
+  } else {
+    hotAPI.reload("data-v-4ea1804e", Component.options)
+  }
+  module.hot.dispose(function (data) {
+    disposed = true
+  })
+})()}
+
+module.exports = Component.exports
+
+
+/***/ }),
+/* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+    data: function data() {
+        return {
+            angka_1: 0,
+            angka_2: 0
+        };
+    }
+});
+
+/***/ }),
+/* 49 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c(
+      "form",
+      { staticClass: "text-center", staticStyle: { "margin-top": "20%" } },
+      [
+        _c("h1", { staticClass: "text-center" }, [_vm._v("Calc Vue App")]),
+        _vm._v(" "),
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model.number",
+              value: _vm.angka_1,
+              expression: "angka_1",
+              modifiers: { number: true }
+            }
+          ],
+          attrs: { type: "number" },
+          domProps: { value: _vm.angka_1 },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.angka_1 = _vm._n($event.target.value)
+            },
+            blur: function($event) {
+              _vm.$forceUpdate()
+            }
+          }
+        }),
+        _vm._v(" +\n        "),
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model.number",
+              value: _vm.angka_2,
+              expression: "angka_2",
+              modifiers: { number: true }
+            }
+          ],
+          attrs: { type: "number" },
+          domProps: { value: _vm.angka_2 },
+          on: {
+            input: function($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.angka_2 = _vm._n($event.target.value)
+            },
+            blur: function($event) {
+              _vm.$forceUpdate()
+            }
+          }
+        })
+      ]
+    ),
+    _vm._v(" "),
+    _c("h2", { staticClass: "text-center" }, [
+      _vm._v(_vm._s(_vm.angka_1 + _vm.angka_2))
+    ])
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+module.exports = { render: render, staticRenderFns: staticRenderFns }
+if (false) {
+  module.hot.accept()
+  if (module.hot.data) {
+    require("vue-hot-reload-api")      .rerender("data-v-4ea1804e", module.exports)
+  }
+}
 
 /***/ })
 /******/ ]);

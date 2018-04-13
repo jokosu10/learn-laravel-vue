@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/vue', function() {
     return view('vue');
 });
+
+Route::get('/kalkulator', function() {
+    return view('kalkulator');
+});
